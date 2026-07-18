@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>주간 식단</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>주간 식단</h1>
+
+    <section class="filters">
+      <label>
+        날짜
+        <select id="dateFilter"></select>
+      </label>
+
+      <label>
+        식당
+        <select id="restaurantFilter"></select>
+      </label>
+
+      <label>
+        시간
+        <select id="timeFilter"></select>
+      </label>
+    </section>
+
+    <section id="menuList"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
